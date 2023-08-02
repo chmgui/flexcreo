@@ -17,7 +17,7 @@ It also plots the following graphs:
 * Denials over time of each of the Creo license features found in the log file.
 
 
-The following temporary json files are created each time FlexSolidworks is run:
+The following temporary json files are created each time FlexCreo is run:
 * log_file_name.json:  Each "line" in this file represents a check-in and check-out of a license by a user.
 * feature_name.json: This file contains the co-ordinates used to plot the usage dand denials graphs.
 
@@ -41,7 +41,7 @@ pip install pandas
 pip install matplotlib
 ```
 
-Download the flexcreo.py script and put it in a directory containing the Solidworks log files you want to analyze, e.g., C:\temp\example\.  CD Change Directory to the directory and run `python flexsolidworks.py`.
+Download the flexcreo.py script and put it in a directory containing the Creo log files you want to analyze, e.g., C:\temp\example\.  CD Change Directory to the directory and run `python flexcreo.py`.
 ```
 cd C:\temp\example
 python flexcreo.py
